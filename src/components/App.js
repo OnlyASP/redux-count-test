@@ -22,7 +22,8 @@ class App extends React.Component {
         <h2>Count: {count}</h2>
         <button onClick={onDec}>DEC</button>
         <button onClick={onInc}>INC</button>
-        <p></p>
+
+        <p>Lorem lorem lorem</p>
 
         <input type="text" value={this.state.value} onChange={this.handleChange}/>
         <h2>Name: {name}</h2>
